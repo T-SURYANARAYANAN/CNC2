@@ -40,8 +40,7 @@ o	PC1 → 192.168.2.1<br>
 7.	Test connectivity using ping from PC0 to PC1.<br>
 ________________________________________
 # Commands Used (Router CLI)
-```bash<br>
-CopyEdit<br>
+```bash
 Router> enable<br>
 Router# configure terminal<br>
 Router(config)# interface fastethernet0/0<br>
