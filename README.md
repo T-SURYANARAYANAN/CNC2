@@ -41,15 +41,15 @@ o	PC1 → 192.168.2.1<br>
 ________________________________________
 # Commands Used (Router CLI)
 ```bash
-Router> enable<br>
-Router# configure terminal<br>
-Router(config)# interface fastethernet0/0<br>
-Router(config-if)# ip address 192.168.1.1 255.255.255.0<br>
-Router(config-if)# no shutdown<br>
+Router> enable
+Router# configure terminal
+Router(config)# interface fastethernet0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
 
-Router(config)# interface fastethernet0/1<br>
-Router(config-if)# ip address 192.168.2.1 255.255.255.0<br>
-Router(config-if)# no shutdown<br>
+Router(config)# interface fastethernet0/1
+Router(config-if)# ip address 192.168.2.1 255.255.255.0
+Router(config-if)# no shutdown
 ```
 ________________________________________
 # Output (Screenshots)
